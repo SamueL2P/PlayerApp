@@ -33,7 +33,7 @@ namespace PlayerApp.Models
 
         public static Player WhoIsElder(Player[] players)
         {
-            int maxAge = 0;
+            int maxAge = DEFAULT_AGE;
             Player playerWithMaxAge = null;
             foreach (Player player in players)
             {
